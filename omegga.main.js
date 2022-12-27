@@ -1,5 +1,5 @@
-const players = this.omegga.getPlayers();
-console.log("plugin ok")
+const players = await this.omegga.getPlayers();
+console.log("GAME STARTS")
 while (players.length < 2) {
     broadcast("Waiting for another player!")
 }
@@ -8,7 +8,7 @@ while (players.length < 2) {
 
 // Pick a random index from the array
 if (players.length > 0){const index = Math.floor(Math.random() * players.length);
-   console.log("plugin ok")
+
     // Get the value at the chosen index
     const bombholder = values[index];
     
