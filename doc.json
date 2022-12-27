@@ -1,0 +1,11 @@
+{
+  "name": "ctf",
+  "description": "Turn minigames into CTF minigames",
+  "author": "cake",
+  "configFormat": {
+    "authorized": [
+      "username"
+    ]
+  },
+  "commands": []
+}
