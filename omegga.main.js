@@ -1,4 +1,4 @@
-
+console.log("GAME STARTS")
 var players = [getPlayers];
 console.log("GAME STARTS")
 while (players < 2) {
