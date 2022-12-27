@@ -1,5 +1,5 @@
 console.log("GAME STARTS")
-var players = getPlayers;
+let players;
 console.log("GAME STARTS")
 while (players < 2) {
     broadcast("Waiting for another player!")
