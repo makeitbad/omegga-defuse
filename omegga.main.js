@@ -1,8 +1,8 @@
 console.log("GAME STARTS")
-let players;
+var players = omegga.GetPlayers();
 console.log("GAME STARTS")
 while (players < 2) {
-    broadcast("Waiting for another player!")
+    omegga.broadcast("Waiting for another player!")
 }
 // Declare an array of values
 
